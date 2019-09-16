@@ -23,11 +23,11 @@ p {
 
 #container {
 	background-color: #FFF;
-	margin-left: 0%;
-    margin-right: 0%;
+	margin-left: 15%;
+    margin-right: 15%;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	width: 100%;
+	width: 70%;
 	padding: 0px 0px 30px 0px;
 }
 
@@ -50,6 +50,35 @@ p {
 #paper_abstract {
     padding:15px 0px 0px 0px;
     margin:0 auto;
-    width: 70%;
+    width: 100%;
 }
 
+#description {
+    padding:15px 0px 0px 0px;
+}
+
+#description h4 {
+	font-weight: 600;
+}
+
+#description a{    
+	text-decoration:none;
+    color: #0066cc;
+    font-weight: 600;
+}
+
+#description a:hover {
+	color:#F90;
+	text-decoration:underline;
+    font-weight: 600;
+}
+
+#architecture {
+    padding:15px 0px 0px 0px;
+}
+
+#architecture_caption {
+    margin:0 auto;
+    text-align:center;
+    padding:10px 0px 0px 0px;
+}
