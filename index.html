@@ -35,11 +35,20 @@
             <div id="description">
                 <h4>A Two-Stage Multimodel Network for Joint Separation and Dereverberation in Far-Field Scenarios</h4>
                 <p>Our multimodel network adopts a two-stage strategy, as shown in Fig. 1. A dilated CNN based separation module, which takes both audio and visual inputs, is employed to separate reverberant target speech from interfering speech and background noise. The output of the separation module is subsequently passed through a BLSTM based dereverberation module. The two modules are first trained separately and then trained jointly to optimize a new multi-objective loss function, which combines a time domain loss and a time-frequency domain loss.</p>
-                <p>For full details, see <a href="https://arxiv.org/submit/2847079/view" target="_blank">our paper</a>.</p>
+                <p>For full details, see <a href="https://arxiv.org/abs/1909.07352" target="_blank">our paper</a>.</p>
                 <a><img src="img/architecture.png" width="100%" id="architecture"/></a>
-                <div id="architecture_caption">Fig. 1. Our proposed two-stage multimodal network architecture for joint separation and dereverberation.</div>          
+                <div id="architecture_caption"><b>Fig. 1. Our proposed two-stage multimodal network architecture for joint separation and dereverberation.</b></div>          
             </div>
             
+            <div id="demos">
+                <h4>Demos</h4>
+                <div id="demo1">
+                    <video id="video1" width="420" controls>
+                        <source src="video/reverb_mix.mp4" type="video/mp4" />
+                    </video>
+                    <div id="video1_des"><b>Unprocessed mixture (simulated, two speakers)</b></div>
+                </div>    
+            </div> 
        
         </div>
     

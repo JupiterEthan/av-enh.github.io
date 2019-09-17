@@ -82,3 +82,23 @@ p {
     text-align:center;
     padding:10px 0px 0px 0px;
 }
+
+#demos {
+    padding:25px 0px 0px 0px;
+}
+
+#demos h4 {
+	font-weight: 600;
+}
+
+#demo1 {
+    margin:0 auto;
+    text-align:center;
+    padding:25px 0px 0px 0px;
+}
+
+#video1_des {
+    margin:0 auto;
+    text-align:center;
+    padding:15px 0px 0px 0px;
+}
