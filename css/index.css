@@ -57,7 +57,7 @@ p {
     padding:15px 0px 0px 0px;
 }
 
-#description h4 {
+#description h3 {
 	font-weight: 600;
 }
 
@@ -87,30 +87,74 @@ p {
     padding:25px 0px 0px 0px;
 }
 
-#demos h4 {
+#demos .target_audio {
+    margin:0 auto;
+    text-align:center;
+}
+
+#demos h3 {
 	font-weight: 600;
+}
+
+#demos h4 {
+    padding: 15px 0px 0px 0px;
+	font-weight: 600;
+}
+
+#demos_reverb {
+    width: 100%;
+    padding: 25px 0px 0px 0px;
 }
 
 #demo1 {
     margin:0 auto;
     text-align:center;
-    padding:25px 0px 0px 0px;
+    width:50%;
 }
 
 #video1_des {
     margin:0 auto;
     text-align:center;
-    padding:15px 0px 0px 0px;
-}
-
-#video2_des {
-    margin:0 auto;
-    text-align:center;
-    padding:15px 0px 0px 0px;
+    padding:5px 0px 35px 0px;
 }
 
 #demo2 {
     margin:0 auto;
     text-align:center;
-    padding:25px 0px 0px 0px;
+    width:50%;
+}
+
+#video2_des {
+    margin:0 auto;
+    text-align:center;
+    padding:5px 0px 35px 0px;
+}
+
+#demos_real {
+    width: 100%;
+    padding: 25px 0px 0px 0px;
+}
+
+#demo3 {
+    margin:0 auto;
+    text-align:center;
+    width:50%;
+}
+
+#video3_des {
+    margin:0 auto;
+    text-align:center;
+    padding:5px 0px 35px 0px;
+}
+
+#demo4 {
+    margin:0 auto;
+    text-align:center;
+    width:50%;
+}
+
+#video4_des {
+    margin:0 auto;
+    text-align:center;
+    padding:5px 0px 35px 0px;
 }
