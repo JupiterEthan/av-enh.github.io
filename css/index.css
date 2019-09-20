@@ -95,11 +95,13 @@ p {
 
 #demos h3 {
 	font-weight: 600;
+    text-align: left;
 }
 
 #demos h4 {
     padding: 15px 0px 0px 0px;
 	font-weight: 600;
+    text-align: left;
 }
 
 #demos_reverb {
@@ -159,3 +161,9 @@ p {
     text-align:center;
     padding:5px 0px 35px 0px;
 }
+
+.audio_demos {
+    margin:0 auto;
+    text-align:center;
+}
+

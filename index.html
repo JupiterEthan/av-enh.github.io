@@ -48,38 +48,195 @@
                         <video id="video1" width="380" controls>
                             <source src="video/reverb_mix.mp4" type="video/mp4" />
                         </video>
-                        <div id="video1_des"><b>Unprocessed mixture (simulated)</b></div>
+                        <div id="video1_des"><b>Unprocessed Mixture (Simulated)</b></div>
                     </div>    
                     <div id="demo2" style="float:right;">
                         <video id="video2" width="380" controls>
                             <source src="video/reverb_enh.mp4" type="video/mp4" />
                         </video>
-                        <div id="video2_des"><b>Processed speech</b></div>
+                        <div id="video2_des"><b>Estimated Speech</b></div>
                     </div>
+                    <div style="clear:both;"></div>
                 </div>
                 
                 <div class="target_audio">
                     <audio controls class="audio-player" preload="metadata" style="width: 180px;">
                         <source src="audio/reverb_tar.wav" type="audio/wav">
                     </audio>
-                    <div style="padding-bottom:35px"><b>Anechoic target speech (ground-truth)</b></div>
+                    <div style="padding-bottom:35px"><b>Anechoic Target Speech (Ground-Truth)</b></div>
                 <div>
                 
-                <div id="demos_real" style="border-top:2px solid black">
+                <div id="demos_real" style="border-top:2px solid black; border-bottom:2px solid black; height:auto;">
                     <div id="demo3" style="float:left;">
                         <video id="video3" width="380" controls>
                             <source src="video/real_mix_org.mp4" type="video/mp4" />
                         </video>
-                        <div id="video3_des"><b>Unprocessed mixture (real recorded)</b></div>
+                        <div id="video3_des"><b>Unprocessed Mixture (Real Recorded)</b></div>
                     </div>   
                     <div id="demo4" style="float:right;">
                         <video id="video4" width="380" controls>
                             <source src="video/real_enh_org.mp4" type="video/mp4" />
                         </video>
-                        <div id="video4_des"><b>Processed speech</b></div>
+                        <div id="video4_des"><b>Estimated Speech</b></div>
                     </div> 
-                </div> 
-       
+                    <div style="clear:both;"></div>
+                </div>
+                                
+                <h4>Audio Demos</h4>
+                
+                <h4>I. Two-Speaker Samples</h4>
+                <table class="audio_demos">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center;">Sample IDs</th>
+                            <th style="text-align:center;">Unprocessed Mixture</th>
+                            <th style="text-align:center;">Estimated Speech</th>
+                            <th style="text-align:center;">Ground-Truth</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr style="border-top:1px solid black">
+                            <td>
+                                <b>A</b>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/2spks/27-44_mix_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/2spks/27-44_enh_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/2spks/27-44_clean_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <b>B</b>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/2spks/31-13_mix_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/2spks/31-13_enh_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/2spks/31-13_clean_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <b>C</b>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/2spks/55-0_mix_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/2spks/55-0_enh_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/2spks/55-0_clean_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h4>II. Three-Speaker Samples</h4>
+                <table class="audio_demos">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center;">Sample IDs</th>
+                            <th style="text-align:center;">Unprocessed Mixture</th>
+                            <th style="text-align:center;">Estimated Speech</th>
+                            <th style="text-align:center;">Ground-Truth</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr style="border-top:1px solid black">
+                            <td>
+                                <b>D</b>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/3spks/31-5_mix_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/3spks/31-5_enh_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/3spks/31-5_clean_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <b>E</b>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/3spks/46-36_mix_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/3spks/46-36_enh_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/3spks/46-36_clean_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <b>F</b>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/3spks/48-19_mix_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/3spks/48-19_enh_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                            <td>
+                                <audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                                    <source src="audio/3spks/48-19_clean_norm.wav" type="audio/wav">
+                                </audio>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
         </div>
     
     </body>
